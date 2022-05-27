@@ -1,32 +1,39 @@
 <template>
-  <div>
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
-  </div>
+  <DefaultLayouts :menus="menus" />
 </template>
 
-<style lang="scss">
+<script>
+import DefaultLayouts from '@/layouts/default/index.vue'
+const menus = [
+  {
+    title: '首页',
+    name: '1111',
+  },
+  {
+    title: '个人中心',
+    name: '121312',
+  },
+]
+export default {
+  name: 'app',
+  components: {
+    DefaultLayouts,
+  },
+  setup() {
+    return {
+      menus,
+      // menus: ref<string[{}]>(["2"])
+    }
+  },
+}
+</script>
+
+<style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
 }
 </style>
