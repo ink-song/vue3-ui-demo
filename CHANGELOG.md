@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.10-gitmoji-config.1](https://github.com/ink-song/vue3-ui-demo/compare/v0.2.9...v0.2.10-gitmoji-config.1) (2022-05-27)
+
+### [0.2.10-gitmoji-config.0](https://github.com/ink-song/vue3-ui-demo/compare/v0.2.9...v0.2.10-gitmoji-config.0) (2022-05-27)
+
 ## [0.2.9](https://github.com/ink-song/vue3-ui-demo/compare/v0.2.8...v0.2.9) (2022-05-27)
 
 
