@@ -7,7 +7,7 @@ import DefaultLayouts from '@/layouts/default/index.vue'
 const menus = [
   {
     title: '首页',
-    name: '1111',
+    name: '11112312',
   },
   {
     title: '个人中心',
