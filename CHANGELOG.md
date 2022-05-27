@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.4](https://github.com/ink-song/vue3-ui-demo/compare/v0.2.3...v0.2.4) (2022-05-27)
+
+
+### ⚡ Performance Improvements
+
+* **all**: husky规范提交 ([8c32923](https://github.com/ink-song/vue3-ui-demo/commit/8c32923))
+
+
+### ✅ Tests
+
+* **app**: test ([d0dccc5](https://github.com/ink-song/vue3-ui-demo/commit/d0dccc5))
+
+
+
 ## [0.2.3](https://github.com/ink-song/vue3-ui-demo/compare/v0.2.2...v0.2.3) (2022-05-27)
 
 
