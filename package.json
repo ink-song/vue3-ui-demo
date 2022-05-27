@@ -1,16 +1,16 @@
 {
   "name": "vue3-ui-demo",
-  "version": "0.2.10-gitmoji-config.1",
+  "version": "0.2.10-gitmoji-config.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/undefined/**/*.json\"",
-    "ct": "git add . && cz-customizable && standard-version -p gitmoji-config -i CHANGELOG.md -s",
+    "ct": "git add . && cz-customizable",
     "test": "your-cmd",
     "prepare": "husky install",
-    "changelog": "standard-version -p gitmoji-config -i CHANGELOG.md -s"
+    "changelog": "conventional-changelog -p gitmoji-config -i CHANGELOG.md -s"
   },
   "dependencies": {
     "ant-design-vue": "^3.2.3",
