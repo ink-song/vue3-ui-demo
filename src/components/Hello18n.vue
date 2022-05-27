@@ -4,8 +4,6 @@
   <div>
     <button @click="changeLans">切换语言</button>
     <p>{{ t('message') }}</p>
-    <div>12312</div>
-    <div>12312</div>
   </div>
 </template>
 
